@@ -6,7 +6,7 @@ A single-page, interactive Croatian-language grammar of Classical Latin built wi
 - Syntax
 ## Sources
 - *Latinska gramatika* – Gortan, Gorski, Pauš ([Internet Archive](https://archive.org/details/veljko-gortan-oton-gorski-pavao-paus-latinska-gramatika))
-- Wiktionary (for paradigms)
+- Wiktionary (for included paradigms)
 ## License
 MIT – free to use, modify, and share.
 ## Author
