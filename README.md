@@ -8,6 +8,6 @@ A single-page, interactive Croatian-language grammar of Classical Latin built wi
 - *Latinska gramatika* – Gortan, Gorski, Pauš ([Internet Archive](https://archive.org/details/veljko-gortan-oton-gorski-pavao-paus-latinska-gramatika))
 - Wiktionary (for included paradigms)
 ## License
-MIT – free to use, modify, and share.
+CC BY-SA 4.0 — Attribution-ShareAlike 4.0 International
 ## Author
 Marino Marinović (2026)
