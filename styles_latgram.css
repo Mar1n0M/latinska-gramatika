@@ -154,24 +154,6 @@ i, em {
     background: none;
     padding: 0;
 }
-@media (max-width: 48rem) {
-    body {
-      padding: 1.5rem;
-    }
-    h1 {
-      font-size: 2.8rem;
-    }
-    summary {
-      font-size: 1.7rem;
-      padding: 0.9rem 1.2rem;
-    }
-    details details summary {
-      font-size: 1.4rem;
-    }
-    li {
-      font-size: 1.15rem;
-    }
-}
 ::selection {
     color: #FFF5E7;
     text-shadow: none;
