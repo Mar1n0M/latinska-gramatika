@@ -4,15 +4,11 @@
     margin: 0;
     padding: 0;
 }
-html, body {
-    overflow-x: hidden;
-}
 html {
     font-size: 90%;
     scroll-behavior: smooth;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    -webkit-text-size-adjust: 100%;
 }
 html::-webkit-scrollbar {
     display: none;
@@ -36,29 +32,28 @@ html::-webkit-scrollbar {
 }
 body {
     font-family: 'Junicode', 'Times New Roman', Georgia, serif;
-    font-size: 1.1rem;
+    font-size: 1.45rem;
     line-height: 1.65;
     color: var(--charcoal-text);
     background: var(--parchment);
     border: 4px solid var(--pompeii-red-dark);
-    max-width: 100%;
+    max-width: none;
     width: 100%;
     margin: 0;
-    padding: 1rem;
+    padding: 1.5rem 2rem;
     min-height: 100vh;
 }
 h1 {
     font-family: 'Cinzel', 'Times New Roman', serif;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     letter-spacing: 0.08em;
     text-align: center;
     color: #2F241E;
     background: none;
     border-bottom: 0.5rem solid var(--pompeii-red);
     position: relative;
-    margin: 0 0 1.5rem 0;
-    margin-bottom: 1.5rem;
+    margin: 0 0 3rem 0;
     padding-bottom: 1.2rem;
     text-shadow: 2px 2px 0 rgba(201, 95, 74, 0.2);
 }
@@ -68,7 +63,7 @@ details {
     border: none;
     border-left: 0.4rem solid rgba(201, 95, 74, 0.6);
     background: rgba(253, 243, 232, 0.98);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     transition: all 0.25s ease;
 }
 summary {
@@ -76,11 +71,11 @@ summary {
     letter-spacing: 0.04em;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     background: #FEF3E8;
     color: #7A4533;
     cursor: pointer;
-    padding: 0.6rem 1rem;
+    padding: 0.9rem 1.5rem;
     list-style: none;
     border-left: 0.5rem solid var(--pompeii-red);
     transition: all 0.2s;
@@ -102,7 +97,7 @@ summary:hover {
     background: #FFE7D8;
 }
 details details summary {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     background: #FEF3E8;
@@ -126,11 +121,11 @@ ul {
 }
 li {
     line-height: 1.7;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     list-style-type: none;
     position: relative;
     margin-bottom: 1rem;
-    padding-left: 1.5rem;
+    padding-left: 2rem;
 }
 li::before {
     content: '▸';
@@ -147,7 +142,7 @@ li i, li em {
     color: #A5563F;
 }
 details > :not(summary) {
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 2rem 1.2rem 2rem;
 }
 details ul ul li::before {
     font-size: 1.4rem;
@@ -206,29 +201,4 @@ footer p {
 footer i {
     font-style: italic;
     color: var(--terracotta);
-}
-@media (min-width: 768px) {
-    body {
-        max-width: none;
-        padding: 1.5rem 2rem;
-        font-size: 1.45rem;
-    }
-    h1 {
-        font-size: 2.8rem;
-        margin-bottom: 3rem;
-    }
-    summary {
-        font-size: 1.6rem;
-        padding: 0.9rem 1.5rem;
-    }
-    details details summary {
-        font-size: 1.6rem;
-    }
-    li {
-        font-size: 1.3rem;
-        padding-left: 2rem;
-    }
-    details > :not(summary) {
-        padding: 0 2rem 1.2rem 2rem;
-    }
 }
