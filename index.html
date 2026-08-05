@@ -12,6 +12,11 @@
     </head>
     <body>
         <h1>Sažeta digitalna gramatika klasičnog latinskog jezika</h1>
+        <div class='search-container'>
+            <input type='text' id='search-input' placeholder='Pretraži gramatiku...'>
+            <button id='search-button'>Pretraži</button>
+        </div>
+        <div id='searchable-content'>
         <details>
             <summary>fonologija</summary>
             <details>
@@ -246,7 +251,7 @@
                 <details>
                     <summary>upitne</summary>
                     <ul>
-                        <li>&ensp;Upisne zamjenice u latinskom su:<br>&ensp;&ensp;• <i>quis</i> <i>quid</i><br>&ensp;&ensp;• <i>qui</i> <i>quae</i> <i>quod</i><br>&ensp;&ensp;• <i>uter</i> <i>utra</i> <i>utrum</i></li>
+                        <li>&ensp;Upitne zamjenice u latinskom su:<br>&ensp;&ensp;• <i>quis</i> <i>quid</i><br>&ensp;&ensp;• <i>qui</i> <i>quae</i> <i>quod</i><br>&ensp;&ensp;• <i>uter</i> <i>utra</i> <i>utrum</i></li>
                         <li>&ensp;<i>Quis</i> i <i>quid</i> koriste se <i>imenički</i>, no <i>qui</i> <i>quae</i> <i>quod</i> upotrebljavaju se <i>pridjevski</i>.</li>
                         <li>&ensp;<i>Quis</i> s imenicom ima značenje <i>koji</i>.</li>
                         <li>&ensp;<i>Qui</i> s imenicom ima značenje <i>kakav</i>.</li>
@@ -552,10 +557,12 @@
                 </ul>
             </details>
         </details>
+        </div>
         <footer>
             <p>Stranicu napravio Marino Marinović, 2026.</p>
             <p>Ova stranica temelji se na kritički odabranim i prerađenim dijelovima knjige <a href='https://archive.org/details/veljko-gortan-oton-gorski-pavao-paus-latinska-gramatika' target='_blank'><i>Latinska gramatika</i></a> (Gortan, Gorski, Pauš), uz vlastite dopune, pojašnjenja i digitalnu obradu.</p>
             <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a></p>
         </footer>
+        <script src='script_latgram.js'></script>
     </body>
 </html>
