@@ -202,3 +202,51 @@ footer i {
     font-style: italic;
     color: var(--terracotta);
 }
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 2.5rem 0;
+    gap: 0.5rem;
+}
+
+#search-input {
+    font-family: 'Junicode', 'Times New Roman', serif;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #D15F4A;
+    background: #FFF3E8;
+    color: #3F322B;
+    width: 60%;
+    max-width: 500px;
+    outline: none;
+}
+
+#search-input:focus {
+    border-color: #B94A38;
+    box-shadow: 0 0 6px rgba(201, 95, 74, 0.3);
+}
+
+#search-button {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 0.5rem 1.2rem;
+    background: #D15F4A;
+    color: #FFF5E7;
+    border: 2px solid #B94A38;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#search-button:hover {
+    background: #B94A38;
+}
+
+mark {
+    background-color: #FFC700;
+    color: #3F322B;
+    padding: 0 0.1em;
+    font-weight: 600;
+}
