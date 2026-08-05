@@ -209,7 +209,6 @@ footer i {
     margin: 0 0 2.5rem 0;
     gap: 0.5rem;
 }
-
 #search-input {
     font-family: 'Junicode', 'Times New Roman', serif;
     font-size: 1.3rem;
@@ -221,12 +220,10 @@ footer i {
     max-width: 500px;
     outline: none;
 }
-
 #search-input:focus {
     border-color: #B94A38;
     box-shadow: 0 0 6px rgba(201, 95, 74, 0.3);
 }
-
 #search-button {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
@@ -239,11 +236,9 @@ footer i {
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
-
 #search-button:hover {
     background: #B94A38;
 }
-
 mark {
     background-color: #FFC700;
     color: #3F322B;
